@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 25.0.1706.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoHub", "AutoHub\AutoHub.csproj", "{88C2CC5D-EEE5-4EFC-9DC4-C1233C622515}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoHub", "AutoHub.csproj", "{4E7F80A4-C107-4C06-AEAC-E564CAE0925E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{88C2CC5D-EEE5-4EFC-9DC4-C1233C622515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{88C2CC5D-EEE5-4EFC-9DC4-C1233C622515}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{88C2CC5D-EEE5-4EFC-9DC4-C1233C622515}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{88C2CC5D-EEE5-4EFC-9DC4-C1233C622515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E7F80A4-C107-4C06-AEAC-E564CAE0925E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E7F80A4-C107-4C06-AEAC-E564CAE0925E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E7F80A4-C107-4C06-AEAC-E564CAE0925E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E7F80A4-C107-4C06-AEAC-E564CAE0925E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {EBBE47C4-7D34-4777-B4F2-0AFF9785C0B9}
+		SolutionGuid = {1F6EBB49-BAB4-4F02-9628-4CF790E6D235}
 	EndGlobalSection
 EndGlobal
