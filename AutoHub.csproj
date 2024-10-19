@@ -15,4 +15,10 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="uploads\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="uploads\" />
+  </ItemGroup>
 </Project>
