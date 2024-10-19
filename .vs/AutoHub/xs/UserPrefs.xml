@@ -1,3 +1,34 @@
-﻿<Properties StartupConfiguration="{0182687C-739E-47E1-AB01-6523832C3063}|https">
+﻿<Properties StartupConfiguration="{4E7F80A4-C107-4C06-AEAC-E564CAE0925E}|https">
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.AutoHub PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/ItemsController.cs">
+    <Files>
+      <File FileName="appsettings.json" Line="3" Column="7" />
+      <File FileName="Program.cs" Line="6" Column="1" />
+      <File FileName="Data/AuctionContext.cs" Line="14" Column="47" />
+      <File FileName="Models/Bid.cs" Line="9" Column="46" />
+      <File FileName="Models/Auction.cs" Line="20" Column="1" />
+      <File FileName="Models/Item.cs" Line="7" Column="6" />
+      <File FileName="Controllers/ItemsController.cs" Line="75" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AutoHub" expanded="True">
+            <Node name="AutoHub">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="appsettings.json" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

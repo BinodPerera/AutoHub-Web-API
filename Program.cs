@@ -1,20 +1,20 @@
-﻿using AutoHub.Data;
+using AutoHub.Data;  // Make sure this is your correct namespace for AuctionContext
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Options;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddControllers();
+
+// Add DbContext with SQL Server connection string
+builder.Services.AddDbContext<AuctionContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
-
-builder.Services.AddDbContext<DataContext>(options=>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
-);
 
 var app = builder.Build();
 
@@ -32,4 +32,3 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
-
